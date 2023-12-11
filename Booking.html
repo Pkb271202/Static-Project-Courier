@@ -1,0 +1,138 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="icon" type="image/x-icon" href="./Image/ASC.png">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">Air Star Courier</div>
+        <div class="dropdown">
+          <button class="dropbtn">Tracking<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Multiple_C-Note.html">Multiple C-Note</a>
+            <a href="./Single_C-Note.html">Single C-Note</a>
+          </div>
+        </div>
+          <div class="dropdown">
+          <button class="dropbtn">Complain<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Complain_register.html">Complain Register</a>
+            <a href="./Complain_entry.html">Complain Entry</a>
+          </div>
+        </div><div class="dropdown">
+          <button class="dropbtn">Account<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Billing_quatation.html">Billing Quatation</a>
+            <a href="./Invoice.html">Invoice</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Transiction<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Booking.html">Booking</a>
+            <a href="./Local_inward.html">Local Inward</a>
+            <a href="./Local_outward.html">Local Outward</a>
+            <a href="./Out_for_delivery.html">Out For Delivery</a>
+            <a href="./Return.html">Return To Origin</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Setup master<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Area_master.html">Area Master</a>
+            <a href="./Delivery_boy.html">Delivery Boy</a>
+            <a href="./C-note_allote.html">C-Note Allote</a>
+          </div>
+      </div>
+      </div>
+    <fieldset style="margin: 15px; width: 1290px; background-color: rgb(238, 221, 221); border: 0px;">
+        <div>
+            <ul type="none" style="margin: 2px;">
+                <li>
+                    <a href="./Project.html" target="_blank"><b>Dashboard</a> / 
+                    <a href="./Booking.html" target="_self">Booking List</b></a>
+                </li>
+            </ul>
+        </div>
+    </fieldset>
+    <table border="1" cellpadding="8" cellspacing="0" align="left" width="1310" style="margin: 15px;">
+        <tr style="height: 25px;">
+            <th style="background-color: rgb(238, 221, 221); text-align: left;"><label style="margin-left: 5px;">Import
+                    Booking</label></th>
+        </tr>
+        <tr style="height: 68px; border: 0px;">
+            <td><label><input type="file" name="file" style="margin-left: 5px;margin-bottom: 25px;"></label><input
+                    type="submit" name="submit" value="Import Booking"
+                    style="background-color:rgb(23, 212, 23); border-color: rgb(23, 212, 23); width: 108px; height: 28px; border-radius: 5px; color: white;">
+            </td>
+        </tr>
+    </table><br>
+    <table border="2" cellpadding="8" cellspacing="0" align="left" width="1310" style="margin: 15px;">
+        <tr>
+            <th colspan="4" style="background-color: rgb(238, 221, 221); text-align: left;"><label
+                    style="margin-left: 5px;">Booking List</label></th>
+        </tr>
+        <tr>
+            <td style="border: 0px;"><input type="submit" name="submit" value="Add Booking"
+                    style="background-color: red; margin-left: 5px; margin-top: 2px; border:red; width: 115px; height:35px; border-radius: 5px; color: white;">
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 0px; width: 520px; height:65px;"><label style="margin-left: 25px; "><b>Select Branch
+                    type</b><br><select style="width: 225px; margin-left: 20px;">
+                        <option>--Select Branch Type--</option>
+                        <option>Sub Branch</option>
+                        <option>Franchisee</option>
+                        <option>Messenger</option>
+                    </select></label></td>
+            <td style="border: 0px; width: 520px;">
+                <label><b>Select Product Name</b><br><select style="width: 225px;">
+                        <option>--Select Product--</option>
+                        <option>DOCUMENT</option>
+                        <option>PARCEL</option>
+                        <option>ASSOCIATE</option>
+                        <option>PRIME</option>
+                        <option>TOPAY</option>
+                        <option>FOV</option>
+                        <option>BAG</option>
+                        <option>MULTI</option>
+                        <option>SHEET</option>
+                        <option>PRIMEB</option>
+                        <option>ASSOCIATEP</option>
+                        <option>GLOBEX</option>
+                    </select></label>
+            </td>
+            <td style="border: 0px; width: 520px;">
+                <label><b>Select Party</b><br><input type="text" name="username" style="width: 205px;"></label>
+            </td>
+            <td style="border: 0px; width:520px;">
+                <label><b>Select Type</b><br></label><select style="width: 185px;">
+                    <option>--Select Type--</option>
+                    <option>Booking</option>
+                    <option>Fast Booking</option>
+                    <option>Sheet Booking</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 0px; height:65px;"><label style="margin-left: 22px;"><b>Destination</b></label><br><input
+                    type="text" name="username" style="margin-left: 20px;"></td>
+            <td style="border: 0px;"><label><b>From Date</b><br><input type="date" name="date"></label></td>
+            <td style="border: 0px;"><label><b>To Date</b><br><input type="date" name="date"></label></td>
+            <td style="border: 0px;"><label><b>C-Note</b><br><input type="number" name="number"></label></td>
+        </tr>
+        <tr>
+            <td style="border: 0px; height:35px;"><input type="submit" name="submit" value="Search"
+                    style="background-color:red; border-color: red; width: 70px; height: 24px; border-radius: 5px; margin-left: 5px; color: white;">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

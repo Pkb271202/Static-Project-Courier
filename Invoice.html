@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="icon" type="image/x-icon" href="./Image/ASC.png">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Air Star Courier</div>
+        <div class="dropdown">
+          <button class="dropbtn">Tracking<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Multiple_C-Note.html">Multiple C-Note</a>
+            <a href="./Single_C-Note.html">Single C-Note</a>
+          </div>
+        </div>
+          <div class="dropdown">
+          <button class="dropbtn">Complain<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Complain_register.html">Complain Register</a>
+            <a href="./Complain_entry.html">Complain Entry</a>
+          </div>
+        </div><div class="dropdown">
+          <button class="dropbtn">Account<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Billing_quatation.html">Billing Quatation</a>
+            <a href="./Invoice.html">Invoice</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Transiction<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Booking.html">Booking</a>
+            <a href="./Local_inward.html">Local Inward</a>
+            <a href="./Local_outward.html">Local Outward</a>
+            <a href="./Out_for_delivery.html">Out For Delivery</a>
+            <a href="./Return.html">Return To Origin</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Setup master<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Area_master.html">Area Master</a>
+            <a href="./Delivery_boy.html">Delivery Boy</a>
+            <a href="./C-note_allote.html">C-Note Allote</a>
+          </div>
+      </div>
+      </div>
+    <fieldset style="margin: 15px; width: 1320px; background-color: rgb(238, 221, 221); border: 0px; margin-left: 3px;">
+        <div>
+            <ul type="none" style="margin: 2px;">
+                <li>
+                    <a href="./Project.html" target="_blank"><b>Dashboard</a> / 
+                    <a href="./Invoice.html" target="_self">Invoice List</b></a>
+                </li>
+            </ul>
+        </div>
+    </fieldset>
+    <table border="1" cellpadding="8" cellspacing="0" style="width: 1260px; margin-left: 3px;">
+        <tr style=" background-color: rgb(238, 221, 221); height: 25px;">
+            <th colspan="5" style="text-align: left;"><label style="margin-left: 5px;">Invoice List</label></th>
+        </tr>
+        <tr>
+            <td colspan="2" style="border: 0px;"><input type="submit" name="submit" value="Add Invoice" style="background-color: red; border-color: red; border-radius: 5px; width: 100px; height: 30px; color: white; margin: 3px; font-weight: bold;"><input type="submit" name="submit" value="Add Crossing Invoice" style="background-color: rgb(56, 187, 56); border-color: rgb(56, 187, 56); border-radius: 5px; width: 165px; height: 30px; color: white; margin: 3px; font-weight: bold;"></td>
+        </tr>
+        <tr>
+            
+            <td style="width: 300px; border: 0px;"><label style="margin: 5px;"><b>Invoice Category</b><br><select
+                style="margin: 5px; border-radius: 5px; width: 235px; height: 25px;">
+                <option>Invoice</option>
+                <option>Crossing Invoice</option>
+            </select></label></td>
+            <td style="width: 300px; border: 0px; height: 85px;"><label
+                style="margin: 5px; margin-left: 15px;"><b>Branch Type</b><br><select
+                    style="margin: 5px; border-radius: 5px; width: 235px; height: 25px; margin-left: 15px;">
+                    <option>--Select Branch Type--</option>
+                    <option>Franchisee</option>
+                    <option>Costumer</option>
+                    <option>Branch</option>
+                    <option>Associate</option>
+                </select></label></td>
+                <td style="width: 300px; border: 0px;"><label style="margin: 5px;"><b>Billing Name</b></label><br><input
+                    type="text" name="username" style="margin: 5px; border-radius: 5px; width: 235px; height: 25px;">
+            </td>
+            <td style="width: 300px; border: 0px;"><label style="margin: 5px;"><b>Crossing Type</b><br><select
+                style="margin: 5px; border-radius: 5px; width: 235px; height: 25px;">
+                <option>--Select Crossing Type--</option>
+                <option>Inward</option>
+                <option>Outward</option>
+                <option>Booking</option>
+                <option>Outbase Croosing</option>
+            </select></label></td>
+            <td style="width: 300px; border: 0px;"><label style="margin: 5px;"><b>Invoice Type</b><br><select
+                style="margin: 5px; border-radius: 5px; width: 235px; height: 25px;">
+                <option>Generate For Me</option>
+                <option>Generate By Me</option>
+            </select></label></td>   
+        </tr>
+        <tr>
+            <td style="border: 0px;"><label style="margin-left: 5px;"><b>From Date</b><br><input type="date" name="date"
+                style="margin-left: 5px; width: 140px; height: 25px; border-radius: 5px; margin: 5px;"></label></td>
+    <td style="border: 0px;"><label style="margin-left: 15px;"><b>To Date</b><br><input type="date" name="date"
+                style="margin-left: 30px; width: 145px; height: 25px; border-radius: 5px; margin: 5px;"></label></td>
+                <td style="width: 300px; border: 0px;"><label style="margin: 5px;"><b>Bill No</b></label><br><input
+                    type="number" name="number" style="margin: 5px; border-radius: 5px; width: 235px; height: 25px;">
+            </td>
+            <td style="width: 300px; border: 0px; height: 85px;"><label
+                style="margin: 5px; margin-left: 15px;"><b>Invoice Status</b><br><select
+                    style="margin: 5px; border-radius: 5px; width: 235px; height: 25px; margin-left: 15px;">
+                    <option>All</option>
+                    <option>Pending</option>
+                    <option>Ready For Billing</option>
+                    <option>Completed</option>
+                </select></label></td>
+                </tr>
+                <tr style="height: 55px;">
+                <td style="border: 0px;"><input type="submit" name="search" value="Search"
+                    style="width: 75px; height: 35px; border-radius: 5px; border-color: red; background-color: red; color: white; margin: 5px;"><input type="submit" name="Export" value="Export"
+                    style="width: 75px; height: 35px; border-radius: 5px; border-color: red; background-color: red; color: white;">
+            </td>
+        </tr>
+</body>
+</html>

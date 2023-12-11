@@ -1,0 +1,106 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Register</title>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="icon" type="image/x-icon" href="./Image/ASC.png">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">Air Star Courier</div>
+        <div class="dropdown">
+          <button class="dropbtn">Tracking<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Multiple_C-Note.html">Multiple C-Note</a>
+            <a href="./Single_C-Note.html">Single C-Note</a>
+          </div>
+        </div>
+          <div class="dropdown">
+          <button class="dropbtn">Complain<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Complain_register.html">Complain Register</a>
+            <a href="./Complain_entry.html">Complain Entry</a>
+          </div>
+        </div><div class="dropdown">
+          <button class="dropbtn">Account<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Billing_quatation.html">Billing Quatation</a>
+            <a href="./Invoice.html">Invoice</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Transiction<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Booking.html">Booking</a>
+            <a href="./Local_inward.html">Local Inward</a>
+            <a href="./Local_outward.html">Local Outward</a>
+            <a href="./Out_for_delivery.html">Out For Delivery</a>
+            <a href="./Return.html">Return To Origin</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Setup master<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="./Area_master.html">Area Master</a>
+            <a href="./Delivery_boy.html">Delivery Boy</a>
+            <a href="./C-note_allote.html">C-Note Allote</a>
+          </div>
+      </div>
+      </div>
+    <fieldset style="margin: 15px; width: 1290px; background-color: rgb(238, 221, 221); border: 0px;">
+        <div>
+            <ul type="none" style="margin: 2px;">
+                <li>
+                    <a href="./Project.html" target="_blank"><b>Dashboard</a> / 
+                    <a href="./Complain_register.html" target="_self">Complain Register</b></a>
+                </li>
+            </ul>
+        </div>
+    </fieldset>
+    <table border="1" cellpadding="8" cellspacing="0" style="width: 1310px; margin-left: 15px;">
+        <tr style=" background-color: rgb(238, 221, 221); height: 25px;">
+            <th colspan="6" style="text-align: left;"><label style="margin-left: 5px;">Complain Register</label></th>
+        </tr>
+        <tr style="height: 65px;">
+            <td style="border: 0px;"><label style="margin-left: 5px;"><b>From Date</b><br><input type="date" name="date"
+                        style="margin-left: 5px; width: 145px; height: 25px; border-radius: 3px;"></label></td>
+            <td style="border: 0px;"><label style="margin-left: 5px;"><b>To Date</b><br><input type="date" name="date"
+                        style="margin-left: 5px; width: 145px; height: 25px; border-radius: 3px;"></label></td>
+            <td style="border: 0px;"><label style="margin-left: 5px;"><b>Complain/CNote No</b><br><input type="text"
+                        name="username"
+                        style="margin-left: 5px; width: 185px; height: 25px; border-radius: 3px;"></label></td>
+            <td style="border: 0px;"><label style="margin-left: 5px;"><b>Source Type</b><br><select
+                        style="margin-left: 5px; width: 165px; height: 25px; border-radius: 3px;">
+                        <option>--Select Source Type--</option>
+                        <option>From Banch</option>
+                        <option>From Costumer</option>
+                    </select></label></td>
+            <td style="border: 0px;"><label style="margin-left: 5px;"><b>Status</b><br><select
+                        style="margin-left: 5px; width: 145px; height: 25px; border-radius: 3px;">
+                        <option>--Select Status--</option>
+                        <option>New Complain</option>
+                        <option>New Response</option>
+                        <option>In-Progress</option>
+                        <option>Closed</option>
+                    </select></label></td>
+            <td style="border: 0px;"><label style="margin-left: 5px;"><b>In/Out</b><br><select
+                        style="margin-left: 5px; width: 165px; height: 25px; border-radius: 3px;">
+                        <option>--Select In/Out--</option>
+                        <option>Incoming</option>
+                        <option>Outgoing</option>
+                    </select></label></td>
+        </tr>
+        <tr style="height: 45px;">
+            <td style="border: 0px;"><input type="submit" name="submit" value="Search"
+                    style="margin-left: 5px; background-color: red; border-color: red; border-radius: 5px; width: 65px; height: 35px; color: white;"><input
+                    type="reset" name="reset" value="Cancel"
+                    style="margin-left: 5px; background-color: red; border-color: red; border-radius: 5px; width: 65px; height: 35px; color: white;">
+            </td>
+        </tr>
+</body>
+
+</html>
